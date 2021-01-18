@@ -4,7 +4,9 @@ import { getMatchedComponentsInstances, getChildrenComponentInstancesUsingFetch,
 import NuxtError from './components/nuxt-error.vue'
 import NuxtLoading from './components/nuxt-loading.vue'
 
-import '..\\node_modules\\prismjs\\themes\\prism.css'
+import '..\\node_modules\\bootstrap\\dist\\css\\bootstrap.css'
+
+import '..\\node_modules\\bootstrap-vue\\dist\\bootstrap-vue.css'
 
 import _6f6c098b from '..\\layouts\\default.vue'
 

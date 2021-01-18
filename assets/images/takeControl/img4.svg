@@ -1,0 +1,44 @@
+<svg
+              width="46"
+              height="44"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 46 44"
+              preserveAspectRatio="xMidYMid meet"
+              class="iconConfluence"
+            >
+              <defs>
+                <linearGradient
+                  x1="99.14%"
+                  y1="112.708%"
+                  x2="33.859%"
+                  y2="37.755%"
+                  id="aiconconfluence"
+                >
+                  <stop stop-color="#0052CC" offset="18%"></stop>
+                  <stop stop-color="#2684FF" offset="100%"></stop>
+                </linearGradient>
+                <linearGradient
+                  x1="7053.827%"
+                  y1="-161634%"
+                  x2="6067.181%"
+                  y2="-163895%"
+                  id="biconconfluence"
+                >
+                  <stop stop-color="#0052CC" offset="18%"></stop>
+                  <stop stop-color="#2684FF" offset="100%"></stop>
+                </linearGradient>
+              </defs>
+              <g fill="none" fill-rule="evenodd">
+                <path d="M-17-18h80v80h-80z"></path>
+                <g fill-rule="nonzero">
+                  <path
+                    d="M2.33 33.563c-.469.764-.996 1.651-1.443 2.358-.4.677-.185 1.55.483 1.962l9.378 5.77a1.443 1.443 0 0 0 1.998-.49c.375-.627.858-1.442 1.384-2.315 3.715-6.131 7.452-5.381 14.189-2.164l9.297 4.422a1.443 1.443 0 0 0 1.94-.722l4.466-10.098a1.443 1.443 0 0 0-.722-1.89 1132.99 1132.99 0 0 1-9.377-4.458C21.286 19.8 10.546 20.197 2.33 33.563z"
+                    fill="url(#aiconconfluence)"
+                  ></path>
+                  <path
+                    d="M44.375 10.647c.469-.765.995-1.652 1.443-2.36.4-.676.185-1.548-.484-1.961L35.957.556a1.443 1.443 0 0 0-2.055.475c-.375.628-.859 1.443-1.385 2.316-3.715 6.131-7.451 5.38-14.188 2.164l-9.27-4.4a1.443 1.443 0 0 0-1.94.721L2.654 11.93a1.443 1.443 0 0 0 .722 1.89c1.962.924 5.864 2.763 9.377 4.458 12.666 6.131 23.406 5.72 31.622-7.631z"
+                    fill="url(#biconconfluence)"
+                  ></path>
+                </g>
+              </g>
+            </svg>

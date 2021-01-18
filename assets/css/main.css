@@ -1,0 +1,51 @@
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.3s;
+}
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}
+
+.layout-enter-active,
+.layout-leave-active {
+  transition: opacity 0.5s;
+}
+.layout-enter,
+.layout-leave-active {
+  opacity: 0;
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
+
+.blog-subtitle{
+  font-size: 1.25rem !important;
+}
+
+h1.blog-intro {
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.content-sub-title {
+  font-size: 1.25rem;
+}
+.content-hint{
+  font-weight: 700;
+}
+h2.article-text {
+  margin-bottom: 0;
+}
+h4.mobile-sollution {
+  font-size: 1.25rem !important;
+}
+
+h3.choose-sub-title {
+  font-size: 1.25rem !important;
+  font-weight: 700 !important;
+}

@@ -12,12 +12,7 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_c655b86c from 'nuxt_plugin_plugin_c655b86c' // Source: .\\components\\plugin.js (mode: 'all')
-import nuxt_plugin_pluginclient_abe8e100 from 'nuxt_plugin_pluginclient_abe8e100' // Source: .\\content\\plugin.client.js (mode: 'client')
-import nuxt_plugin_pluginserver_0fc50108 from 'nuxt_plugin_pluginserver_0fc50108' // Source: .\\content\\plugin.server.js (mode: 'server')
-import nuxt_plugin_workbox_68aa366e from 'nuxt_plugin_workbox_68aa366e' // Source: .\\workbox.js (mode: 'client')
-import nuxt_plugin_metaplugin_6b2d0049 from 'nuxt_plugin_metaplugin_6b2d0049' // Source: .\\pwa\\meta.plugin.js (mode: 'all')
-import nuxt_plugin_iconplugin_6fd4a5bd from 'nuxt_plugin_iconplugin_6fd4a5bd' // Source: .\\pwa\\icon.plugin.js (mode: 'all')
+import nuxt_plugin_bootstrapvue_8d8bcfc8 from 'nuxt_plugin_bootstrapvue_8d8bcfc8' // Source: .\\bootstrap-vue.js (mode: 'all')
 import nuxt_plugin_axios_c1c71226 from 'nuxt_plugin_axios_c1c71226' // Source: .\\axios.js (mode: 'all')
 
 // Component: <ClientOnly>
@@ -64,7 +59,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"title":"doodleblue-home","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":""}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"}],"style":[],"script":[]},
+    head: {"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description"},{"hid":"og:title","name":"og:title","property":"og:title"},{"hid":"og:description","name":"og:description","property":"og:description"},{"hid":"og:image","name":"og:image","property":"og:image","content":"https:\u002F\u002Fwww.doodleblue.com\u002Fhome.png"},{"hid":"og:image:width","name":"og:image:width","content":"1200"},{"hid":"og:image:height","name":"og:image:height","content":"630"},{"hid":"twitter:card","name":"twitter:card","content":"summary_large_image"},{"hid":"twitter:title","name":"twitter:title"},{"hid":"twitter:description","name":"twitter:description"},{"hid":"twitter:image","name":"twitter:image","content":"https:\u002F\u002Fwww.doodleblue.com\u002Fhome.png"}],"link":[{"rel":"icon","type":"image\u002Fpng","size":"16x16","href":"\u002Ffavicon\u002F16x16.png"},{"rel":"icon","type":"image\u002Fpng","size":"32x32","href":"\u002Ffavicon\u002F32x32.png"},{"rel":"icon","type":"image\u002Fpng","size":"96x96","href":"\u002Ffavicon\u002F96x96.png"},{"rel":"icon","type":"image\u002Fpng","size":"192x192","href":"\u002Ffavicon\u002F192x192.png"},{"rel":"apple-touch-icon","type":"image\u002Fpng","size":"16x16","href":"\u002Ffavicon\u002F16x16.png"},{"rel":"apple-touch-icon","type":"image\u002Fpng","size":"32x32","href":"\u002Ffavicon\u002F32x32.png"},{"rel":"apple-touch-icon","type":"image\u002Fpng","size":"96x96","href":"\u002Ffavicon\u002F96x96.png"},{"rel":"apple-touch-icon","type":"image\u002Fpng","size":"192x192","href":"\u002Ffavicon\u002F192x192.png"}],"script":[],"style":[]},
 
     router,
     nuxt: {
@@ -178,28 +173,8 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_c655b86c === 'function') {
-    await nuxt_plugin_plugin_c655b86c(app.context, inject)
-  }
-
-  if (process.client && typeof nuxt_plugin_pluginclient_abe8e100 === 'function') {
-    await nuxt_plugin_pluginclient_abe8e100(app.context, inject)
-  }
-
-  if (process.server && typeof nuxt_plugin_pluginserver_0fc50108 === 'function') {
-    await nuxt_plugin_pluginserver_0fc50108(app.context, inject)
-  }
-
-  if (process.client && typeof nuxt_plugin_workbox_68aa366e === 'function') {
-    await nuxt_plugin_workbox_68aa366e(app.context, inject)
-  }
-
-  if (typeof nuxt_plugin_metaplugin_6b2d0049 === 'function') {
-    await nuxt_plugin_metaplugin_6b2d0049(app.context, inject)
-  }
-
-  if (typeof nuxt_plugin_iconplugin_6fd4a5bd === 'function') {
-    await nuxt_plugin_iconplugin_6fd4a5bd(app.context, inject)
+  if (typeof nuxt_plugin_bootstrapvue_8d8bcfc8 === 'function') {
+    await nuxt_plugin_bootstrapvue_8d8bcfc8(app.context, inject)
   }
 
   if (typeof nuxt_plugin_axios_c1c71226 === 'function') {

@@ -1,0 +1,17 @@
+<svg
+              width="56"
+              height="46"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 56 46"
+              preserveAspectRatio="xMidYMid meet"
+              class="iconDropbox"
+            >
+              <g fill="none" fill-rule="evenodd">
+                <path d="M-12-17h80v80h-80z"></path>
+                <path
+                  d="M28.037 8.652L14.02 17.304l14.018 8.652-14.018 8.652L0 25.884l14.019-8.652L0 8.652 14.019 0l14.018 8.652zM13.944 37.348l14.019-8.652 14.018 8.652L27.963 46l-14.019-8.652zm14.093-11.464l14.019-8.652-14.019-8.58L41.981 0 56 8.652l-14.019 8.652L56 25.956l-14.019 8.652-13.944-8.724z"
+                  fill="#0061FF"
+                  fill-rule="nonzero"
+                ></path>
+              </g>
+            </svg>
