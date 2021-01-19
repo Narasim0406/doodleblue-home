@@ -18,7 +18,7 @@
 
       <b-row align-v="center">
         <b-col md="6">
-          <!-- <ClientsSwiper/>-->
+          <ClientsSwiper/>
         </b-col>
         <b-col md="6">
           <p
@@ -28,12 +28,12 @@
 
           <!-- <nuxt-link class="link" to="/about-us"> -->
           <nuxt-link class="link" :to="{name:'aboutus'}">
-            <!--<Button
+            <Button
               class="wow fade-in-bottom"
               data-wow-delay="0.1s"
               buttonText="About Us"
               color="#006ada"
-            />-->
+            />
           </nuxt-link>
         </b-col>
       </b-row>
@@ -43,7 +43,8 @@
 
 <script>
 // import Button from '../components/Button.vue'
-// import ClientsSwiper from '../components/ClientsSwiper.vue'
+import Button from '../Button.vue'
+import ClientsSwiper from '../ClientsSwiper.vue'
 
 export default {
     jsonld() {
@@ -72,8 +73,8 @@ export default {
     }
   },
   components: {
-    // Button,
-    // ClientsSwiper
+    Button,
+    ClientsSwiper
   },
 
   mounted() {

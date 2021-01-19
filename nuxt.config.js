@@ -162,34 +162,34 @@ module.exports = {
       // }
     ],
     script: [
-    //   {
-    //   src: '/Anime.js',
-    //   defer: true
-    // },
-    // {
-    //   src: '/three.min.js',
-    //   defer: true
-    // },
-    // {
-    //   src: '/CanvasRenderer.js',
-    //   defer: true
-    // },
-    // {
-    //   src: '/Stats.min.js',
-    //   defer: true
-    // },
-    // {
-    //   src: '/TweenMax.min.js',
-    //   defer: true
-    // },
-    // {
-    //   src: '/ScrollMagic.min.js',
-    //   defer: true
-    // },
-    // {
-    //   src: '/Projector.js',
-    //   defer: true
-    // },
+      {
+      src: '/Anime.js',
+      defer: true
+    },
+    {
+      src: '/three.min.js',
+      defer: true
+    },
+    {
+      src: '/CanvasRenderer.js',
+      defer: true
+    },
+    {
+      src: '/Stats.min.js',
+      defer: true
+    },
+    {
+      src: '/TweenMax.min.js',
+      defer: true
+    },
+    {
+      src: '/ScrollMagic.min.js',
+      defer: true
+    },
+    {
+      src: '/Projector.js',
+      defer: true
+    },
       // {
       //   src: '/facebookPixel.js',
       //   defer: true
@@ -209,12 +209,12 @@ module.exports = {
    */
 
   css: [
-    // '~/assets/css/animate.min.css',
-    // 'swiper/dist/css/swiper.css',
-    // '~/assets/css/style.css',
-    // '~/assets/css/main.css',
+    '~/assets/css/animate.min.css',
+    'swiper/dist/css/swiper.css',
+    '~/assets/css/style.css',
+    '~/assets/css/main.css',
     // '~/static/fontawesome/css/all.min.css',
-    // '~/assets/css/lato.css',
+    '~/assets/css/lato.css',
     // 'https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Open+Sans:800'
   ],
 
@@ -222,42 +222,42 @@ module.exports = {
    ** Plugins to load before mounting the App
    */
   plugins: [
-  //   {
-  //   src: '~/plugins/JQuery.js',
-  //   ssr: false
-  // },
-  // {
-  //   src: '~/plugins/GlobalMixin.js',
-  //   ssr: false
-  // },
-  // {
-  //   src: '~/plugins/Wow.js',
-  //   ssr: false
-  // },
-  // {
-  //   src: '~/plugins/Ga.js',
-  //   ssr: false
-  // },
-  //   '~/plugins/GlobalDeclaration.js',
-  // {
-  //   src: '~/plugins/vue-swiper.js',
-  //   ssr: false
-  // },
-  // {
-  //   src: '~/plugins/MenuList.js',
-  //   ssr: false
-  // },
-  // {
-  //   src: '~/plugins/vue-resource.js',
-  //   ssr: false
-  // },
-  // {
-  //   src: '~/plugins/lazyload.js',
-  //   ssr: false
-  // },
-  // {
-  //   src: '~/plugins/jsonld.js'
-  // }
+    {
+    src: '~/plugins/JQuery.js',
+    ssr: false
+  },
+  {
+    src: '~/plugins/GlobalMixin.js',
+    ssr: false
+  },
+  {
+    src: '~/plugins/Wow.js',
+    ssr: false
+  },
+  {
+    src: '~/plugins/Ga.js',
+    ssr: false
+  },
+    '~/plugins/GlobalDeclaration.js',
+  {
+    src: '~/plugins/vue-swiper.js',
+    ssr: false
+  },
+  {
+    src: '~/plugins/MenuList.js',
+    ssr: false
+  },
+  {
+    src: '~/plugins/vue-resource.js',
+    ssr: false
+  },
+  {
+    src: '~/plugins/lazyload.js',
+    ssr: false
+  },
+  {
+    src: '~/plugins/jsonld.js'
+  }
   ],
 
   /*
