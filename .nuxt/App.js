@@ -1,7 +1,7 @@
 import Vue from 'vue'
 
 import { getMatchedComponentsInstances, getChildrenComponentInstancesUsingFetch, promisify, globalHandleError, urlJoin, sanitizeComponent } from './utils'
-import NuxtError from './components/nuxt-error.vue'
+import NuxtError from '..\\layouts\\error.vue'
 import NuxtLoading from './components/nuxt-loading.vue'
 import NuxtBuildIndicator from './components/nuxt-build-indicator'
 
@@ -19,9 +19,11 @@ import '..\\assets\\css\\main.css'
 
 import '..\\assets\\css\\lato.css'
 
+import _5e1239f1 from '..\\layouts\\BaseLayout.vue'
 import _6f6c098b from '..\\layouts\\default.vue'
+import _71831641 from '..\\layouts\\noLayout.vue'
 
-const layouts = { "_default": sanitizeComponent(_6f6c098b) }
+const layouts = { "_BaseLayout": sanitizeComponent(_5e1239f1),"_default": sanitizeComponent(_6f6c098b),"_noLayout": sanitizeComponent(_71831641) }
 
 export default {
   render (h, props) {
