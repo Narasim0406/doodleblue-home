@@ -9,7 +9,7 @@
     <!-- About Us -->
 
     <!-- Services Swiper -->
-    <ServicesSwiper/>
+    <!--<ServicesSwiper/>-->
     <!-- Services Swiper -->
 
     <!-- <br> -->
@@ -31,10 +31,10 @@
 <script>
 import HomeBanner from '../components/Home/HomeBanner.vue'
 import HomeIntro from '../components/Home/HomeIntro.vue'
-import ServicesSwiper from '../components/Services/ServicesSwiper.vue'
-import RecentWorksSwiper from '../components/RecentWorks/RecentWorksSwiper.vue'
-import KnowOurStrategy from '../components/KnowOurStrategy.vue'
-import StartYourCareer from '../components/StartYourCareer.vue'
+// import ServicesSwiper from '../components/Services/ServicesSwiper.vue'
+// import RecentWorksSwiper from '../components/RecentWorks/RecentWorksSwiper.vue'
+// import KnowOurStrategy from '../components/KnowOurStrategy.vue'
+// import StartYourCareer from '../components/StartYourCareer.vue'
 
 export default {
     jsonld() {
@@ -89,10 +89,10 @@ export default {
   components: {
     HomeBanner,
     HomeIntro,
-    ServicesSwiper,
-    RecentWorksSwiper,
-    KnowOurStrategy,
-    StartYourCareer
+    // ServicesSwiper,
+    // RecentWorksSwiper,
+    // KnowOurStrategy,
+    // StartYourCareer
   },
   head() {
     return {
