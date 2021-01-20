@@ -247,10 +247,10 @@ module.exports = {
     src: '~/plugins/MenuList.js',
     ssr: false
   },
-  {
-    src: '~/plugins/vue-resource.js',
-    ssr: false
-  },
+  // {
+  //   src: '~/plugins/vue-resource.js',
+  //   ssr: false
+  // },
   {
     src: '~/plugins/lazyload.js',
     ssr: false

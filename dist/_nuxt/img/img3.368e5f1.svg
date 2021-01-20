@@ -1,0 +1,42 @@
+<svg
+                width="59"
+                height="60"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 59 60"
+                preserveAspectRatio="xMidYMid meet"
+                class="iconJira"
+              >
+                <defs>
+                  <linearGradient x1="91.867%" y1="40.328%" x2="28.264%" y2="81.66%" id="aiconjira">
+                    <stop stop-color="#0052CC" offset="18%"></stop>
+                    <stop stop-color="#2684FF" offset="100%"></stop>
+                  </linearGradient>
+                  <linearGradient
+                    x1="3878%"
+                    y1="2561.069%"
+                    x2="5439%"
+                    y2="1905.368%"
+                    id="biconjira"
+                  >
+                    <stop stop-color="#0052CC" offset="18%"></stop>
+                    <stop stop-color="#2684FF" offset="100%"></stop>
+                  </linearGradient>
+                </defs>
+                <g fill="none" fill-rule="evenodd">
+                  <path d="M-11-10h80v80h-80z"></path>
+                  <g fill-rule="nonzero">
+                    <path
+                      d="M57.724 28.232L31.732 2.495 29.213 0 9.647 19.374.702 28.232a2.352 2.352 0 0 0 0 3.347l17.875 17.7L29.213 59.81l19.566-19.374.303-.3 8.642-8.558a2.352 2.352 0 0 0 0-3.347zM29.213 38.747l-8.93-8.842 8.93-8.842 8.93 8.842-8.93 8.842z"
+                      fill="#2684FF"
+                    ></path>
+                    <path
+                      d="M29.213 21.063A14.786 14.786 0 0 1 29.149.071L9.607 19.413l10.636 10.532 8.97-8.882z"
+                      fill="url(#aiconjira)"
+                    ></path>
+                    <path
+                      d="M38.167 29.882l-8.954 8.865A14.816 14.816 0 0 1 33.62 49.28c0 3.95-1.585 7.739-4.407 10.532l19.59-19.398-10.636-10.531z"
+                      fill="url(#biconjira)"
+                    ></path>
+                  </g>
+                </g>
+              </svg>
