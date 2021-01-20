@@ -12,6 +12,7 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
+import nuxt_plugin_nuxticons_4b36030a from 'nuxt_plugin_nuxticons_4b36030a' // Source: .\\nuxt-icons.js (mode: 'all')
 import nuxt_plugin_bootstrapvue_8d8bcfc8 from 'nuxt_plugin_bootstrapvue_8d8bcfc8' // Source: .\\bootstrap-vue.js (mode: 'all')
 import nuxt_plugin_axios_c1c71226 from 'nuxt_plugin_axios_c1c71226' // Source: .\\axios.js (mode: 'all')
 import nuxt_plugin_JQuery_09e96fe3 from 'nuxt_plugin_JQuery_09e96fe3' // Source: ..\\plugins\\JQuery.js (mode: 'client')
@@ -22,7 +23,6 @@ import nuxt_plugin_GlobalDeclaration_4fd5c956 from 'nuxt_plugin_GlobalDeclaratio
 import nuxt_plugin_vueswiper_6a7b4f42 from 'nuxt_plugin_vueswiper_6a7b4f42' // Source: ..\\plugins\\vue-swiper.js (mode: 'client')
 import nuxt_plugin_MenuList_ef7d6638 from 'nuxt_plugin_MenuList_ef7d6638' // Source: ..\\plugins\\MenuList.js (mode: 'client')
 import nuxt_plugin_lazyload_10f2b7b2 from 'nuxt_plugin_lazyload_10f2b7b2' // Source: ..\\plugins\\lazyload.js (mode: 'client')
-import nuxt_plugin_jsonld_2ff766e1 from 'nuxt_plugin_jsonld_2ff766e1' // Source: ..\\plugins\\jsonld.js (mode: 'all')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -68,7 +68,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description"},{"hid":"og:title","name":"og:title","property":"og:title"},{"hid":"og:description","name":"og:description","property":"og:description"},{"hid":"og:image","name":"og:image","property":"og:image","content":"https:\u002F\u002Fwww.doodleblue.com\u002Fhome.png"},{"hid":"og:image:width","name":"og:image:width","content":"1200"},{"hid":"og:image:height","name":"og:image:height","content":"630"},{"hid":"twitter:card","name":"twitter:card","content":"summary_large_image"},{"hid":"twitter:title","name":"twitter:title"},{"hid":"twitter:description","name":"twitter:description"},{"hid":"twitter:image","name":"twitter:image","content":"https:\u002F\u002Fwww.doodleblue.com\u002Fhome.png"}],"link":[{"rel":"icon","type":"image\u002Fpng","size":"16x16","href":"\u002Ffavicon\u002F16x16.png"},{"rel":"icon","type":"image\u002Fpng","size":"32x32","href":"\u002Ffavicon\u002F32x32.png"},{"rel":"icon","type":"image\u002Fpng","size":"96x96","href":"\u002Ffavicon\u002F96x96.png"},{"rel":"icon","type":"image\u002Fpng","size":"192x192","href":"\u002Ffavicon\u002F192x192.png"},{"rel":"apple-touch-icon","type":"image\u002Fpng","size":"16x16","href":"\u002Ffavicon\u002F16x16.png"},{"rel":"apple-touch-icon","type":"image\u002Fpng","size":"32x32","href":"\u002Ffavicon\u002F32x32.png"},{"rel":"apple-touch-icon","type":"image\u002Fpng","size":"96x96","href":"\u002Ffavicon\u002F96x96.png"},{"rel":"apple-touch-icon","type":"image\u002Fpng","size":"192x192","href":"\u002Ffavicon\u002F192x192.png"}],"script":[{"src":"\u002FAnime.js","defer":true},{"src":"\u002Fthree.min.js","defer":true},{"src":"\u002FCanvasRenderer.js","defer":true},{"src":"\u002FStats.min.js","defer":true},{"src":"\u002FTweenMax.min.js","defer":true},{"src":"\u002FScrollMagic.min.js","defer":true},{"src":"\u002FProjector.js","defer":true}],"style":[]},
+    head: {"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description"},{"hid":"og:title","name":"og:title","property":"og:title"},{"hid":"og:description","name":"og:description","property":"og:description"},{"hid":"og:image","name":"og:image","property":"og:image","content":"https:\u002F\u002Fwww.doodleblue.com\u002Fhome.png"},{"hid":"og:image:width","name":"og:image:width","content":"1200"},{"hid":"og:image:height","name":"og:image:height","content":"630"},{"hid":"twitter:card","name":"twitter:card","content":"summary_large_image"},{"hid":"twitter:title","name":"twitter:title"},{"hid":"twitter:description","name":"twitter:description"},{"hid":"twitter:image","name":"twitter:image","content":"https:\u002F\u002Fwww.doodleblue.com\u002Fhome.png"},{"hid":"mobile-web-app-capable","name":"mobile-web-app-capable","content":"yes"},{"hid":"apple-mobile-web-app-title","name":"apple-mobile-web-app-title","content":"doodleblue-home"},{"hid":"theme-color","name":"theme-color","content":"#006ada"},{"hid":"og:type","name":"og:type","property":"og:type","content":"website"},{"hid":"og:site_name","name":"og:site_name","property":"og:site_name","content":"doodleblue-home"}],"link":[{"rel":"icon","type":"image\u002Fpng","size":"16x16","href":"\u002Ffavicon\u002F16x16.png"},{"rel":"icon","type":"image\u002Fpng","size":"32x32","href":"\u002Ffavicon\u002F32x32.png"},{"rel":"icon","type":"image\u002Fpng","size":"96x96","href":"\u002Ffavicon\u002F96x96.png"},{"rel":"icon","type":"image\u002Fpng","size":"192x192","href":"\u002Ffavicon\u002F192x192.png"},{"rel":"apple-touch-icon","type":"image\u002Fpng","size":"16x16","href":"\u002Ffavicon\u002F16x16.png"},{"rel":"apple-touch-icon","type":"image\u002Fpng","size":"32x32","href":"\u002Ffavicon\u002F32x32.png"},{"rel":"apple-touch-icon","type":"image\u002Fpng","size":"96x96","href":"\u002Ffavicon\u002F96x96.png"},{"rel":"apple-touch-icon","type":"image\u002Fpng","size":"192x192","href":"\u002Ffavicon\u002F192x192.png"},{"rel":"manifest","href":"\u002F_nuxt\u002Fmanifest.16f9118c.json"},{"rel":"shortcut icon","href":"\u002F_nuxt\u002Ficons\u002Ficon_64.ew0x20g200g.png"}],"script":[{"src":"\u002FAnime.js","defer":true},{"src":"\u002Fthree.min.js","defer":true},{"src":"\u002FCanvasRenderer.js","defer":true},{"src":"\u002FStats.min.js","defer":true},{"src":"\u002FTweenMax.min.js","defer":true},{"src":"\u002FScrollMagic.min.js","defer":true},{"src":"\u002FProjector.js","defer":true}],"style":[],"title":"doodleblue-home","htmlAttrs":{"lang":"en"}},
 
     router,
     nuxt: {
@@ -182,6 +182,10 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
+  if (typeof nuxt_plugin_nuxticons_4b36030a === 'function') {
+    await nuxt_plugin_nuxticons_4b36030a(app.context, inject)
+  }
+
   if (typeof nuxt_plugin_bootstrapvue_8d8bcfc8 === 'function') {
     await nuxt_plugin_bootstrapvue_8d8bcfc8(app.context, inject)
   }
@@ -220,10 +224,6 @@ async function createApp(ssrContext, config = {}) {
 
   if (process.client && typeof nuxt_plugin_lazyload_10f2b7b2 === 'function') {
     await nuxt_plugin_lazyload_10f2b7b2(app.context, inject)
-  }
-
-  if (typeof nuxt_plugin_jsonld_2ff766e1 === 'function') {
-    await nuxt_plugin_jsonld_2ff766e1(app.context, inject)
   }
 
   // Lock enablePreview in context

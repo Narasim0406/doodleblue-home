@@ -255,9 +255,9 @@ module.exports = {
     src: '~/plugins/lazyload.js',
     ssr: false
   },
-  {
-    src: '~/plugins/jsonld.js'
-  }
+  // {
+  //   src: '~/plugins/jsonld.js'
+  // }
   ],
 
   /*
@@ -269,7 +269,7 @@ module.exports = {
     // Doc: https://bootstrap-vue.js.org/docs/
     'bootstrap-vue/nuxt',
     // 'nuxt-purgecss',
-    // '@nuxtjs/pwa',
+    '@nuxtjs/pwa',
     // '@nuxtjs/sitemap',
     // 'nuxt-purgecss',
     // '@bazzite/nuxt-optimized-images',
