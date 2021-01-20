@@ -247,10 +247,10 @@ module.exports = {
     src: '~/plugins/MenuList.js',
     ssr: false
   },
-  {
-    src: '~/plugins/vue-resource.js',
-    ssr: false
-  },
+  // {
+  //   src: '~/plugins/vue-resource.js',
+  //   ssr: false
+  // },
   {
     src: '~/plugins/lazyload.js',
     ssr: false
@@ -269,7 +269,7 @@ module.exports = {
     // Doc: https://bootstrap-vue.js.org/docs/
     'bootstrap-vue/nuxt',
     // 'nuxt-purgecss',
-    '@nuxtjs/pwa',
+    // '@nuxtjs/pwa',
     // '@nuxtjs/sitemap',
     // 'nuxt-purgecss',
     // '@bazzite/nuxt-optimized-images',
