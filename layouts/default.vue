@@ -1,12 +1,12 @@
 <template>
   <div class="baseLayoutWrapper">
     <!-- SecondaryHeader Menu Starts -->
-    <SecondaryHeader/>
+    <!--<SecondaryHeader/>-->
     <!-- SecondaryHeader Menu Ends -->
 
     <!-- Page Route -->
     <div class="pageRouter" ref="pagerouter">
-      <nuxt/>
+      <!--<nuxt/>-->
       <!--<TransformBusiness/>-->
     </div>
     <!-- Page Route -->
@@ -20,7 +20,7 @@
 </template>
 
 <script>
-import SecondaryHeader from '@/components/SecondaryHeader.vue'
+// import SecondaryHeader from '@/components/SecondaryHeader.vue'
 // import PageFooter from '@/components/PageFooter.vue'
 // import TransformBusiness from '@/components/TransformBusiness.vue'
 // import FloatingContact from '@/components/FloatingContact.vue'
@@ -29,7 +29,7 @@ import SecondaryHeader from '@/components/SecondaryHeader.vue'
 
 export default {
   components: {
-    SecondaryHeader,
+    // SecondaryHeader,
     // PageFooter,
     // TransformBusiness,
     // FloatingContact,

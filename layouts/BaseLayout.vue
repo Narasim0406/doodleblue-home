@@ -7,31 +7,31 @@
     <!-- Page Route -->
     <div class="pageRouter" ref="pagerouter">
       <nuxt/>
-      <!--<TransformBusiness v-if="showTransformBusiness"/>-->
+      <TransformBusiness v-if="showTransformBusiness"/>
     </div>
     <!-- Page Route -->
 
-      <!--<FloatingContact v-if="showContact"/>-->
+      <FloatingContact v-if="showContact"/>
     
     <!-- Footer Starts -->
-    <!--<PageFooter :scrolled="reachedBottom" ref="pageFooter"/>-->
+    <PageFooter :scrolled="reachedBottom" ref="pageFooter"/>
     <!-- Footer Ends -->
   </div>
 </template>
 
 <script>
 import Header from '@/components/Header.vue'
-// import PageFooter from '@/components/PageFooter.vue'
-// import TransformBusiness from '@/components/TransformBusiness.vue'
-// import FloatingContact from '@/components/FloatingContact.vue'
+import PageFooter from '@/components/PageFooter.vue'
+import TransformBusiness from '@/components/TransformBusiness.vue'
+import FloatingContact from '@/components/FloatingContact.vue'
 
 
 export default {
   components: {
     Header,
-    // PageFooter,
-    // TransformBusiness,
-    // FloatingContact
+    PageFooter,
+    TransformBusiness,
+    FloatingContact
   },
   data() {
     return {
