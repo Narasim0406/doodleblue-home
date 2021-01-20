@@ -21,7 +21,6 @@ import nuxt_plugin_Ga_385a15f2 from 'nuxt_plugin_Ga_385a15f2' // Source: ..\\plu
 import nuxt_plugin_GlobalDeclaration_4fd5c956 from 'nuxt_plugin_GlobalDeclaration_4fd5c956' // Source: ..\\plugins\\GlobalDeclaration.js (mode: 'all')
 import nuxt_plugin_vueswiper_6a7b4f42 from 'nuxt_plugin_vueswiper_6a7b4f42' // Source: ..\\plugins\\vue-swiper.js (mode: 'client')
 import nuxt_plugin_MenuList_ef7d6638 from 'nuxt_plugin_MenuList_ef7d6638' // Source: ..\\plugins\\MenuList.js (mode: 'client')
-import nuxt_plugin_vueresource_aa2741a8 from 'nuxt_plugin_vueresource_aa2741a8' // Source: ..\\plugins\\vue-resource.js (mode: 'client')
 import nuxt_plugin_lazyload_10f2b7b2 from 'nuxt_plugin_lazyload_10f2b7b2' // Source: ..\\plugins\\lazyload.js (mode: 'client')
 import nuxt_plugin_jsonld_2ff766e1 from 'nuxt_plugin_jsonld_2ff766e1' // Source: ..\\plugins\\jsonld.js (mode: 'all')
 
@@ -217,10 +216,6 @@ async function createApp(ssrContext, config = {}) {
 
   if (process.client && typeof nuxt_plugin_MenuList_ef7d6638 === 'function') {
     await nuxt_plugin_MenuList_ef7d6638(app.context, inject)
-  }
-
-  if (process.client && typeof nuxt_plugin_vueresource_aa2741a8 === 'function') {
-    await nuxt_plugin_vueresource_aa2741a8(app.context, inject)
   }
 
   if (process.client && typeof nuxt_plugin_lazyload_10f2b7b2 === 'function') {
